@@ -13,8 +13,9 @@
 
 }
 
-.section-tag {
-  padding: 64px;
+.section {
+  margin: 16px;
+  background-color: #DDD;
 }
 
 .navigation-bar {
@@ -119,4 +120,26 @@
 .header-area p {
   font-size: 0.85rem;
   line-height: 0;
+}
+
+.title-hr {
+  width: 30px;
+  height: 10px;
+  margin: 0 auto;
+  border-color: #e67e22;
+  background-color: #e67e22;
+}
+
+.text-card-body {
+  line-height: 0;
+}
+
+.text-small-card-body {
+  font-size: 0.8rem;
+  line-height: 0;
+  padding-left: 10px;
+}
+
+.card-list {
+  padding-top: 10px;
 }

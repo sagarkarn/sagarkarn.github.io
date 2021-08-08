@@ -21,3 +21,4 @@ function closeNav() {
   button.innerHTML = '<i class="fas fa-bars"></i>'
   drawerOpen = false;
 }
+
