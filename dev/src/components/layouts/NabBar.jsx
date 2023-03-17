@@ -17,10 +17,19 @@ function NabBar() {
       <div className="flex-none">
         <ul className="menu menu-horizontal p-0">
           <li tabIndex={0}>
-            <a href="#">Project</a>
+          <Scroll.Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              delay={100}
+            >
+              Project
+            </Scroll.Link>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <a href="#experiences">Experience</a>
           </li>
           <li>
             <Scroll.Link

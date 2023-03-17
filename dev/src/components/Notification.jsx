@@ -5,15 +5,15 @@ function Notification() {
     <div className="absolute bottom-4 right-4">
       <div class="mockup-code">
         <pre data-prefix="$">
-          <code>Looking for job change</code>
+          <code>Looking for building</code>
         </pre>
         <pre data-prefix=">" class="text-warning">
-          <code>as dotnet developer</code>
+          <code>cool stuff ?</code>
         </pre>
         <pre data-prefix=">" class="text-success">
           <code>
             <a href="#my-modal" className="btn btn-sm btn-secondary">
-              Download resume
+              Visit my linkedin
             </a>
           </code>
         </pre>
