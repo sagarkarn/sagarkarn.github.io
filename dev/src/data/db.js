@@ -59,3 +59,94 @@ export const projects = [
         url: 'https://laravel.com/'
     },
 ]
+
+export const themes = [
+    {
+        id: 1,
+        name: 'Light',
+        value: 'light'
+    },
+    {
+        id: 2,
+        name: 'Dark',
+        value: 'dark'
+
+    },
+    {
+        id: 3,
+        name: 'Cupcake',
+        value: 'cupcake'
+    },
+    {
+        id: 4,
+        name: 'bumblebee',
+        value: 'bumblebee'
+    },
+    {
+        id: 5,
+        name: 'emerald',
+        value: 'emerald'
+    },
+    {
+        id: 6,
+        name: 'corporate',
+        value: 'corporate'
+    },
+    {
+        id: 7,
+        name: 'synthwave',
+        value: 'synthwave'
+    },
+    {
+        id: 8,
+        name: 'retro',
+        value: 'retro'
+    },
+    {
+        id: 9,
+        name: 'cyberpunk',
+        value: 'cyberpunk'
+
+    },
+    {
+        id: 10,
+        name: 'valentine',
+        value: 'valentine'
+    },
+    {
+        id: 11,
+        name: 'halloween',
+        value: 'halloween'
+    },
+    {
+        id: 12,
+        name: 'garden',
+        value: 'garden'
+    },
+    {
+        id: 13,
+        name: 'forest',
+        value: 'forest'
+    },
+    {
+        id: 14,
+        name: 'aqua',
+        value: 'aqua'
+    },
+    {
+        id: 15,
+        name: 'lofi',
+        value: 'lofi'
+    },
+    {
+        id: 15,
+        name: 'pastel',
+        value: 'pastel'
+    },
+    {
+        id: 16,
+        name: 'fantasy',
+        value: 'fantasy'
+    }
+]
+

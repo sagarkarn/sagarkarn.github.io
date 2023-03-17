@@ -54,7 +54,7 @@ function Project() {
           <div style={{ width: "100%" }} className="mt-5 flex justify-center">
             <hr className="border-2 border-gray-500 w-24" />
           </div>
-          <div className="grid grid-cols-3 items-center justify-center mt-6">
+          <div className="grid lg:grid-cols-3 items-center justify-center mt-6">
             {projects.map((project) => (
                 <ProjectCard project={project}/>
                 ))}

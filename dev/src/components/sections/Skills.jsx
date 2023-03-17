@@ -1,7 +1,8 @@
 import React from "react";
 import { skills } from "../../data/db";
 
-function SkillItem({ name, icon }) {
+function SkillItem({ name, icon, level }) {
+  console.log(name, icon, level);
   return (
     <div className="flex flex-row">
       <div
@@ -19,7 +20,7 @@ function SkillItem({ name, icon }) {
       <div className="flex flex-col items-center justify-center">
         <progress
           className="progress progress-secondary w-56 bg-gray-50"
-          value="95"
+          value={level}
           max="100"
         ></progress>
       </div>
@@ -44,6 +45,7 @@ function Skills() {
                     key={skill.id}
                     name={skill.name}
                     icon={skill.icon}
+                    level={skill.level}
                     />
                 ))}
               </div>
