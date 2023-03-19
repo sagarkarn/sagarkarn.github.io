@@ -17,9 +17,9 @@ function ProjectCard({project}) {
             <h2 className="card-title">{project.name}</h2>
             <p>{project.description}</p>
             <p>{project.technologies}</p>
-            <div className="card-actions justify-end">
+            {/* <div className="card-actions justify-end">
               <a href="#my-modal" className="btn btn-primary">More info</a>
-            </div>
+            </div> */}
           </div>
         </div>
         </>
@@ -55,8 +55,8 @@ function Project() {
             <hr className="border-2 border-gray-500 w-24" />
           </div>
           <div className="grid lg:grid-cols-3 items-center justify-center mt-6">
-            {projects.map((project) => (
-                <ProjectCard project={project}/>
+            {projects.map((project, index) => (
+                <ProjectCard key={index} project={project}/>
                 ))}
           </div>
         </div>

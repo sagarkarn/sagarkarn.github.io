@@ -16,7 +16,7 @@ function Hero() {
           <h1 className="mb-5 text-5xl font-bold">
             I am <span className="text-lime-600">Sagar Karn</span>
           </h1>
-          <p className="text-warning">Always making progress</p>
+          <p className="text-warning">in progress</p>
           <p className="mb-5">
             Learning, Exploring, and Creating Innovative Solutions.
           </p>

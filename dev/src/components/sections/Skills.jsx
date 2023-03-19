@@ -2,7 +2,6 @@ import React from "react";
 import { skills } from "../../data/db";
 
 function SkillItem({ name, icon, level }) {
-  console.log(name, icon, level);
   return (
     <div className="flex flex-row">
       <div
@@ -40,9 +39,9 @@ function Skills() {
           <div className="flex flex-col items-center justify-center mt-5">
             <div className="flex flex-col items-center justify-center">
               <div className="flex flex-row items-center justify-center flex-wrap w-full">
-                {skills.map((skill) => (
+                {skills.map((skill, index) => (
                   <SkillItem
-                    key={skill.id}
+                    key={index}
                     name={skill.name}
                     icon={skill.icon}
                     level={skill.level}
